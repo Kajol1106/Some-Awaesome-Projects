@@ -1,0 +1,294 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kajol Kolagir Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <img src="Images/close.png" id="menu-image" onclick="closeMenu()">
+                </ul>
+                <img src="Images/menu (1).png" id="menu-image" onclick="openMenu()">
+            </nav>
+            <div class="header-text">
+                <p>Java Backend Developer</p>
+                <h1>Hi👋, I'm <span> Kajol</span> <br>Kolagir from India</br></h1>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- for image -->
+                <div class="about-col-1">
+                    <img src="Images/profile.jpeg">
+                </div>
+
+                <!-- for text -->
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a highly detail-oriented and organized Java Backend Developer with excellent technical and communication
+                        sills. Passionate about coding and self-motivated with keen interest in building use-centric products.
+                        I just completed an Intensive Full Stack Web Development Bootcamp from Masai School with 1200+ hours soft skills
+                        training. Looking forward to utilising my skills in a challenging work environment.
+                        I like to help people, solve their problem and bring smile on their face
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('tech-skills')">Tech Skills</p>
+                        <p class="tab-links" onclick="opentab('soft-skills')">Soft Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="tech-skills">
+                        <ul>
+                            <li><span>Languages : </span><br>HTML || CSS || JavaScript || Java</li>
+                            <li><span>Frameworks : </span><br>SpringBoot || J2EE</li>
+                            <li><span>API's : </span><br>Servelets || </li>
+                            <li><span>Software : </span><br>STS || VS Code</li>
+                            <li><span>Database : </span><br>Oracle || MySQL || Database SQL command</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="soft-skills">
+                        <ul>
+                            <li>Communication Skill</li>
+                            <li>Good Listener</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Full Stack Java Development Course : </span><br>Masai School, Bangalore <br> Jan 2022 - Nov 2022 <br><a href="https://drive.google.com/file/d/1g1APn5KImHWciLqvwCEgdyPCgn7-N1sO/view?usp=sharing"><img src="Images/certificate (2).png" id="certificate-image"></a></li>
+                            <li><span>Bachelors of Computer Application (9.29 CGPA) : </span><br>College of Computer Science and Information Technology, Latur. <br> 2018 - 2021 <br><a href="https://drive.google.com/file/d/1uApXjx_ldKp9JqPnC4NQB-XPRxRIfcds/view?usp=sharing"><img src="Images/certificate (2).png" id="certificate-image"></a></li>
+                            <li><span>Bachelor of Art (Open Univercity) : </span><br>Yashwantrao Chavhan Maharashtra Open University (YCMOU) <br> 2016 - 2019 <br><a href="https://drive.google.com/file/d/1g1APn5KImHWciLqvwCEgdyPCgn7-N1sO/view?usp=sharing"><img src="Images/certificate (2).png" id="certificate-image"></a></a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certificate">
+                        <ul>
+                            <li><span>GCC-TBC English Computer Typing 40 wpm: </span><br>August-2017<br><a href="https://drive.google.com/file/d/1ui81ZksqF7bH6MIbKGdOB4DG-Z7Xjdvn/view?usp=sharing"><img src="Images/certificate.png" id="certificate-image"></a></a></li>
+                            <li><span>GCC-TBC Marathi Computer Typing 30 wpm: </span><br>August-2017<br><a href="https://drive.google.com/file/d/19ydAbIWE5rjZx2GkIa5lPUupsWMh-YJR/view?usp=sharing"><img src="Images/certificate.png" id="certificate-image"></a></a></li>
+                            <li><span>Basic Of Web Development Course : </span><br> 1 Day Workshop to build Amazon Website pages <br><a href="https://drive.google.com/file/d/15eKB0S6KYMiakBWhGPqqKlyF3ddkKHHj/view?usp=sharing"><img src="Images/certificate.png" id="certificate-image"></a></li>
+                            <li><span>Scholarship Certificate : </span><br>4th Standard Scholarship Certificate<br><a href="https://drive.google.com/file/d/13djiC_vHVAe-xjY_0BbU7L4H3y1KMbWH/view?usp=sharing"><img src="Images/certificate.png" id="certificate-image"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- tech skills -->
+    <div id="techSkills">
+        <div class="container">
+        <h1 class="subtitle">Tech Stack</h1>
+        <div class="user">
+        <!-- Technology Stack #1: Languages -->
+          <img
+            class="techimg"
+            src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png"
+            alt=""
+          />
+          <img
+            class="techimg"
+            src="https://user-images.githubusercontent.com/58034490/141354056-7bf12bcc-6ebc-4104-bd4e-d5e24db293f5.gif"
+            alt=""
+          />
+          <img
+            class="techimg"
+            src="https://user-images.githubusercontent.com/58034490/141353058-36c5ef97-420a-4bcf-b871-7ef1cc262e26.png"
+            alt=""
+          />
+          <img
+            class="techimg"
+            src="https://miro.medium.com/max/1400/0*Rplsn6TJYurdICZB.jpg"
+            alt=""
+          />
+
+          <img
+            class="techimg"
+            src="https://user-images.githubusercontent.com/58034490/141353054-2350801b-ca74-40c5-87b8-c8e3cb909928.png"
+            alt=""
+          />
+          <img
+            class="techimg"
+            src="https://user-images.githubusercontent.com/58034490/141354818-8c186650-e4fa-4463-9690-e8f91893dfa2.gif"
+            alt=""
+          />
+          <img
+            class="techimg"
+            src="https://user-images.githubusercontent.com/58034490/141353050-4624e02a-84d4-4a97-a533-fd8bae9fd418.png"
+            alt=""
+          />
+          <img
+            class="techimg"
+            src="Images/github.png"
+            alt=""
+          />
+
+          <img
+            class="techimg"
+            src="https://pbs.twimg.com/profile_images/914842431748739072/66NFe2g3.jpg"
+            alt=""
+          />
+
+          <img
+          class="techimg"
+          src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/102017/logo_0.png?ahfjomQ0VKp4nkiMoEHmHxXQZGYBHdpj&itok=Hr4b70AV"
+          alt=""
+        />
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- project section -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="subtitle">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/greenhouse.jpg">
+                    <div class="layer">
+                        <h3>greenhouse.com(Clone)</h3>
+                        <p>It is Applicant tracking system and recruiting software</p><br>
+                        <h4><span> Tech Stack : </span> <span style="color: black;">HTML || CSS || JavaScript</span></h4><br>
+                        <div class="project-link">
+                            <a href="https://github.com/suraj-996/showy-knot-1716">
+                               <img src="Images/gitblack.png"> 
+                            </a>
+                            <a href="https://cool-pudding-2aae89.netlify.app/">
+                                <img src="Images/chrome.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/kindmeal.jpg">
+                    <div class="layer">
+                        <h3>kindmeal.com(Clone)</h3>
+                        <p>Introducing Malaysia's Pioneering Meat-Free Lifstyle platform brought to you by instatnt coupon and dinning.</p><br>
+                        <h4><span> Tech Stack : </span> <span style="color: black;">HTML || CSS || JavaScript</span></h4><br>
+                        <div class="project-link">
+                            <a href="https://github.com/Kajol1106/Projects">
+                               <img src="Images/gitblack.png"> 
+                            </a>
+                            <a href="https://luminous-macaron-4a3058.netlify.app/">
+                                <img src="Images/chrome.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/movie App.jpg">
+                    <div class="layer">
+                        <h3>movie.com</h3>
+                        <p>This is movie app, where you can search movies and you can see that specific movie</p><br>
+                        <h4><span> Tech Stack : </span> <span style="color: black;">HTML || CSS || JavaScript</span></h4><br>
+                        <div class="project-link">
+                            <a href="https://github.com/masai-course/kajol_fp02_009/tree/master/unit-3/sprint-2/day-3/assignments/OMDB%20Movie%20App%20III6">
+                               <img src="Images/gitblack.png"> 
+                            </a>
+                            <a href="https://kaleidoscopic-flan-0e8689.netlify.app/">
+                                <img src="Images/chrome.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <div class="social-icons">
+                        <a href="#">
+                           <img src="Images/gmail.png"><span style="color: white; font-size: 15px; margin-top: -90px;">kolagirkajol@gmail.com</span> 
+                        </a><br><br>
+                        <a href="https://wa.me/+917620716665">
+                            <img src="Images/whatsapp.png"><span style="color: white; font-size: 15px; margin-top: -90px;">+91 7620716665</span> 
+                        </a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/Kajol1106">
+                           <img src="Images/github.png"> 
+                        </a>
+                        <a href="www.linkedin.com/in/kajol-kolagir-167a93201">
+                            <img src="Images/linkedin.png">
+                        </a>
+                        <a href="https://twitter.com/Kaju1106">
+                            <img src="Images/twitter.png" alt="">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCEmceFe4uTqxs4IacXXJNMw">
+                            <img src="Images/youtube.png" alt="">
+                        </a>
+                    </div>
+                    <a href="Images/Kajol Kolgir.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="Message" rows="6" placeholder="message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made by Kajol❤️...</p>
+        </div>
+    </div>
+</body>
+
+<script>
+    let tablinks = document.getElementsByClassName("tab-links");
+    let tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    
+</script>
+<script>
+    let sidemenu = document.getElementById("sidemenu");
+    function openMenu() {
+        sidemenu.style.right = "0";
+    }
+    function closeMenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</html>
+
+<!-- greenhouse deploy link : https://cool-pudding-2aae89.netlify.app/ -->
+
+<!-- movie app : https://github.com/masai-course/kajol_fp02_009/tree/master/unit-3/sprint-2/day-3/assignments/OMDB%20Movie%20App%20III
+
+deploy link : https://kaleidoscopic-flan-0e8689.netlify.app/ -->
